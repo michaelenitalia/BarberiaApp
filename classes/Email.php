@@ -27,8 +27,8 @@ class Email
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Port = 465;
-        $mail->Username = 'productodigitala@gmail.com';
-        $mail->Password = 'digital@2021';
+        $mail->Username = '';
+        $mail->Password = '';
 
         $mail->setFrom('cuentas@appsalon.com');
         $mail->addAddress('cuentas@appsalon.com', 'AppSalon.com');
